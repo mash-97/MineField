@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int c,i,j,n,*ptr,*pr, *another_ptr;
+    double avr,avr_a;
+    scanf("%d", &c);
+
+    for(i=0; i<c; i++)
+    {
+        int sum=0;
+        int count = 0;
+        scanf("%d",&n);
+
+        ptr=(int*)calloc(n,sizeof(int));
+        another_ptr = ptr;
+        pr = ptr;
+        
+        for(j=1; j<=n; j++)
+        {
+            scanf("%d",ptr);
+            sum=sum+*ptr;
+            ptr++;
+        }
+        avr=(sum*1.0)/n;
+        
+        for(j=1; j<=n; j++)
+        {
+            if(avr < *pr)
+            {
+                count++;
+            }
+            pr++;
+        }
+        
+        avr_a = ((count*100*1.0)/n);
+
+
+
+        printf("%.3lf%%\n", avr_a);
+
+        free(another_ptr);
+    }
+
+    return 0;
+}
