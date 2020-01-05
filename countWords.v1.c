@@ -1,10 +1,3 @@
-// Chy Method to count all the words in a string.
-// This approach is cool, Idea of Abir Chy.
-// As I just implemented the idea.
-// The credit goes to Abir Chy.
-
-// This program works for just alphabets. You can think all the characters except alphabets are it's delimeters.
-
 #include <stdio.h>
 #include <string.h>
 
