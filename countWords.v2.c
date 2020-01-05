@@ -1,13 +1,3 @@
-// Chy Method to count all the words in a string.
-// This approach is cool, Idea of Abir Chy.
-// As I just implemented the idea.
-// The credit goes to Abir Chy.
-
-// This program works for delimeters.
-// You specify the delimeters, words divided according to those delimeters.
-// Though time complexity is a fact. It depends on delimeters length and string length quite hugely.
-// It looks like generalized. But can be clarify.
-
 #include <stdio.h>
 #include <strings.h>
 
@@ -39,7 +29,7 @@ int countWords(char *string, char *delimeters)
 		// I call it The Chy Logic...
 		// a==false means it is before character is alphabet and b==true means current character is one of the delimeter.
 		if(a == false && b == true) ++count_words;		
-		// It just checks is the before character is alphabet and current character is delimeters.
+		// It just checks if the before character is alphabet and current character is delimeters.
 		// If the above condition is true then it's a word to count.				
 		
 		a = b;
