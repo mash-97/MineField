@@ -14,8 +14,9 @@ BLOCKS = []
 def dyn_wrapper(wished_length):
     global DYN_ARRAY
     DYN_ARRAY[0] = 0
-    
     for i in range(wished_length+1):
+        DYN_ARRAY[i] = None
+    for i in range(min([max(BLOCKS), wished_length])+1):
         DYN_ARRAY[i] = dyn_blocks(i)
     return dyn_blocks(wished_length)
     
