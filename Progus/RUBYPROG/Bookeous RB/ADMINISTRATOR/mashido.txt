@@ -1,0 +1,9 @@
+mash:x:1000:1000:Mashiur Rahman,,,:/home/mash:/bin/bash
+adm:x:4:syslog,mash,ror
+cdrom:x:24:mash
+sudo:x:27:mash,ror
+dip:x:30:mash
+plugdev:x:46:mash
+lpadmin:x:118:mash,ror
+mash:x:1000:
+sambashare:x:128:mash,ror

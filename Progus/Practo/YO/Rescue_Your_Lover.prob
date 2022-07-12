@@ -1,0 +1,25 @@
+
+	Your lover is in an extreme level of trouble, Kidnapped. Fortunately, you've found the location of your kidnapped lover, in an Island and your lover, might be surrouned by damn kidnappers, dangerous animals, disastrous pits and caves etc over the island. You've made up your mind to save your lover without any reinforcement from others. Do or die! No matter how hard it is, you're the only life saver, you are the only HERO!
+
+	In this suicide rescue mission, you might fall in some life taking as well as life saving conditions, because you've only a limited amount of energy, a knife and a location tracker. You lose 1 unit of energy on every step you move. You gain energies when you find a Energy Tree, lose energies when you fall on a pit or use a cave, you can cut a timber tree with your knife by losing energies. When you face a kidnapper or an animal, you have to fight, you only win when you have enough energy than the enemy, if not you die. Some caves are special, they can be used like a space-time travel, because they may be connected to an another place of the island. Some caves are special, linked to an another place, like time-trouble. 
+
+	
+	
+	
+Don't care about your own life, do or die.
+You're losing energy in every step, so your lover in fear.
+When you face damn kidnappers, you fight them, do or die, depends on your energy level.
+When you face dangerous animals, you kill them, do or die, reduces your energy, if your energy is enough you survive.
+When you face a Timber Tree, you cut them and lose energy, or leave it be.
+Every step you walk, you lose 1 
+
+Island 		=> n*n grid
+Timber Tree => TT, (x,y), -E
+Energy Tree => FT, (x,y), E
+Kidnapper	=> K,  (x,y), -E
+Cave		=> C,  (x,y), -E, (x,y)
+Pits		=> P,  (x,y), -E
+Animal		=> A,  (x,y), E
+Lover  		=> L,  (x,y), E
+
+

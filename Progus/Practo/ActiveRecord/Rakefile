@@ -1,0 +1,30 @@
+require_relative 'migrations.rb'
+
+namespace :migrate do
+	task :users_table do
+		Migrator::UsersTable.migrate(:down)
+		Migrator::UsersTable.migrate(:up)
+	end
+
+	task :profiles_table do
+		Migrator::ProfilesTable.migrate(:down)
+		Migrator::ProfilesTable.migrate(:up)
+	end
+	
+	task :posts_table do
+		Migrator::PostsTable.migrate(:down)
+		Migrator::PostsTable.migrate(:up)
+	end
+	
+	task :clans_table do
+		Migrator::ClansTable.migrate(:down)
+		Migrator::ClansTable.migrate(:up)
+	end
+	
+	task :clans_users_table do
+		Migrator::ClansUsersTable.migrate(:down)
+		Migrator::ClansUsersTable.migrate(:up)
+	end
+end
+
+

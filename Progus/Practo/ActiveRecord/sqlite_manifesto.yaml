@@ -1,0 +1,4 @@
+# sqlite3 manifesto
+adapter: 'sqlite3'
+database: 'test.sqlite.db'
+

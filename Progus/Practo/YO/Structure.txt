@@ -1,0 +1,42 @@
+Topics:
+	
+	#Part   I: Basic Techniques
+		
+		*Sorting	*Searching	*Data Structures	*Complete Search	
+		*Greedy	*Dynamic	*Bit manipulation.	*etc
+	
+	
+	#Part  II: Graph Algorithms
+		
+		
+	#Part III: Advanced Topics
+		
+		*Number Theory	*Combinatorics	*Probability
+		*Game Theory	*Segment Tree	*Geometry
+						*etc
+
+	
+
+Structure:
+	
+	1. Individually:
+		
+		*Mash: Part(I)
+		*Abir: Part(II)
+		*Asma: Strict to the 2 and 3.
+	
+	2. Team Discussion:
+	
+		*One Problem, Many Solutions (Problems from the previous held team contest #3)
+		*Part(III)
+		*Individual problems.
+	
+	3. Team Contests:
+	
+		3 contests per week.
+		1 qurator per contest.
+		4 problems per contest.
+		Time: 5 hours
+
+
+

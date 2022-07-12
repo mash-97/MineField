@@ -1,0 +1,120 @@
+--- !ruby/object:Prompon::Prompo
+id: 1
+name: Mashiur Rahman
+address: Cha-Bagan, Joydebpur, Gazipur, Dhaka, Bangladeh, Earth, Solar, Milky way,
+  in a universe of multiverse.
+details: First valid Prompo entry. Prompo's program writer.
+favorite_number: '1358'
+made_time: 2018-05-20 21:49:09.918284023 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 2
+name: Hasna Hena
+address: Cha-Bagan
+details: My grand mother.
+favorite_number: '4321'
+made_time: 2018-05-20 21:51:16.583488664 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 3
+name: Shakib Hossen
+address: Vhura, Joydebpur, Gazipur, Dhaka
+details: mama
+favorite_number: '1328'
+made_time: 2018-06-06 15:49:06.271746896 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 4
+name: Abu Jahid Prompo
+address: Airport, Uttara, Dhaka
+details: uv friend
+favorite_number: '2133'
+made_time: 2018-06-06 15:58:42.543173484 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 5
+name: Najmul Sarkar
+address: Signboard, Tongi
+details: hold:138, abdul gani road, uv friend
+favorite_number: '7898'
+made_time: 2018-06-06 16:01:44.778242446 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 6
+name: Atik Foysal
+address: 10 Sector, House Building, Uttara, Dhaka
+details: n>40
+favorite_number: '1720'
+made_time: 2018-06-06 16:03:49.913269705 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 7
+name: Showrab Ahmed
+address: Khilkhet, Dhaka
+details: strange
+favorite_number: '8989'
+made_time: 2018-06-06 16:11:43.690765726 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 8
+name: Mohammad Sharif Hasan
+address: chaya-kunjo, Gazipur
+details: my cousing...
+favorite_number: '0151'
+made_time: 2018-06-06 16:24:50.079146599 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 9
+name: Sakim Moshikur 
+address: Moshikur beta
+details: Bandan, Gazipur, Dhaka, Bangladesh
+favorite_number: '0175'
+made_time: 2018-06-06 19:09:23.571374172 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 10
+name: Abdullah Al Masud
+address: Chaykunjo, Gazipur Sadar, Gazipur, Dhaka
+details: Bros
+favorite_number: '3435'
+made_time: 2018-06-16 10:35:45.508895619 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 11
+name: Md Arafat Islam Hamim
+address: Bondan, Joydebpur, Gazipur, Dhaka
+details: My YO
+favorite_number: '0666'
+made_time: 2018-06-20 01:26:00.026467457 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 12
+name: Md Rashidul Islam
+address: Bondan, Joydebpur, Gazipur, Dhaka
+details: My Mammu
+favorite_number: '3311'
+made_time: 2018-06-20 01:31:01.670152863 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 13
+name: Abdul Aziz
+address: Itahata, Chourasta, Gazipur, Dhaka
+details: My Friend
+favorite_number: '5436'
+made_time: 2018-07-10 10:43:58.207353946 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 14
+name: Habibur Rahman
+address: Board Bazar, Gazipur, Dhaka
+details: '01767378382'
+favorite_number: '1234'
+made_time: 2018-07-21 00:20:58.016856884 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 15
+name: Marcel Hossen Mahim
+address: Duet, Joydebpur, Gazipur, Dhaka
+details: '01959533891'
+favorite_number: '5678'
+made_time: 2018-07-21 00:22:22.101683578 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 16
+name: Shakib Mridha
+address: Rajlokkhi, Uttara, Dhaka
+details: UV friend
+favorite_number: '4251'
+made_time: 2018-07-27 07:28:36.957297279 +06:00
+--- !ruby/object:Prompon::Prompo
+id: 17
+name: Abir Chy
+address: uttara, dhaka
+details: Confused Trio
+favorite_number: '8421'
+made_time: 2019-09-02 14:22:29.191986125 +06:00

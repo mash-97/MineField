@@ -1,0 +1,15 @@
+--- !ruby/object:Tree
+name: 
+height: 
+leaves_size: 
+fruity: 
+--- !ruby/object:Tree
+name: coconaut
+height: 30
+leaves_size: 
+fruity: 
+--- !ruby/object:Tree
+name: Mango
+height: 10
+leaves_size: 0.2
+fruity: true

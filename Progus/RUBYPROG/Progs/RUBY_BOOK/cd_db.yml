@@ -1,0 +1,9 @@
+---
+- !ruby/object:CD
+  name: Mine Fuck
+  aritst: Mash
+  numtracks: 12
+- !ruby/object:CD
+  name: Purpose
+  aritst: Justin Beiber
+  numtracks: 13

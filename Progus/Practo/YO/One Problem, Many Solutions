@@ -1,0 +1,22 @@
+One Problem, Many Solutions:
+	
+	The technique is to take the best solution from all the available solutions, starts from raw/bruteforce solutions to the highest best possible solutions. And go out of the cage.
+	
+	1. Take a problem.
+	
+	2. Clear the concept and write down all the minimum possible test cases that might occur.
+	
+	3. Take a solution/solutional concept and analyse:
+		a. Check if it can be a solution via the test cases.
+		b. Find pros-cons and the complexity of time and memory.
+		c. Apply in code and check if it's okay.
+	
+	4. From the previous solutions experiences, check if it's possible to find a upgraded or rather a
+new concept using different algorithms and go to the 3.
+	
+	5. If there seems to be no other solutions available then compare all the solutions in hand and take the best.
+	
+	
+	By finding all the possible solutions, we can improve our skills with just a few problems without
+making fuzz in our brain with so many problems. We will try to improvise solutions by applying our
+known algorithm skills. If we find that it's not a good solution with our known algorithm skills, we'll search for new alogorithms/technique for learning and master it for the future purpose. And that's why I call it a Dynamic Solution to learn new algorithms in a best way.

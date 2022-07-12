@@ -1,0 +1,3 @@
+Enter two numbers: 10 ~ 8 = 2
+Enter two numbers: 11 ~ 10 = 1
+Enter two numbers: 8 ~ 1 = 7

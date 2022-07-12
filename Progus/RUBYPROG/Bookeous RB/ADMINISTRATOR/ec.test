@@ -1,0 +1,5 @@
+adm:x:4:syslog,mash,ror
+sudo:x:27:mash,ror
+lpadmin:x:118:mash,ror
+sambashare:x:128:mash,ror
+ror:x:1002:

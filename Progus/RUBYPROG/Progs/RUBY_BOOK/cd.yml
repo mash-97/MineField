@@ -1,0 +1,9 @@
+---
+- !ruby/object:CD
+  name: Mind of Mine
+  artist: Zayn
+  num_tracks: '12'
+- !ruby/object:CD
+  name: Purpose
+  artist: Justin Beiber
+  num_tracks: '7'

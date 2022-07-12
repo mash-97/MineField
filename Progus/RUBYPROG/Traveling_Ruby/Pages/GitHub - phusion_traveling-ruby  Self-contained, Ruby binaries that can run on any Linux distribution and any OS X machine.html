@@ -1,0 +1,1617 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-hddDYPWR0gBbqLRmIZP242WMEiYsVkYI2UCYCVUHB4h5DhD2cbtFJYG+HPh21dZGb+sbgDHxQBNJCBq7YbmlBQ==" rel="stylesheet" href="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/frameworks-02a3eaa24db2bd1ed9b64450595fc2cf.css">
+  <link crossorigin="anonymous" media="all" integrity="sha512-8BxpFTogSyEi7yQb7rCnH1J/gTxVdHNk1Rrg92rh2zMf++XM8Us8Pcp+5GzjxqRxkax0Ckz52LufuEGch2uE7w==" rel="stylesheet" href="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/site-1faffb77dc8b20778aa60ecb5998972e.css">
+    <link crossorigin="anonymous" media="all" integrity="sha512-YdIM/FwAk7kxvPGCpeT2JXxPrThv4m9rH7fLzjn+dg3zKb+PWOaxX1ioiOcmOb64+LeDKgBXsGL4b/BJQY/cdA==" rel="stylesheet" href="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/github-102d2679bcc893600ce928d5c6d34297.css">
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - phusion/traveling-ruby: Self-contained, Ruby binaries that can run on any Linux distribution and any OS X machine.</title>
+    <meta name="description" content="Self-contained, Ruby binaries that can run on any Linux distribution and any OS X machine. - phusion/traveling-ruby">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/830588?s=400&amp;v=4"><meta name="twitter:site" content="@github"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="phusion/traveling-ruby"><meta name="twitter:description" content="Self-contained, Ruby binaries that can run on any Linux distribution and any OS X machine. - phusion/traveling-ruby">
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/830588?s=400&amp;v=4"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="object"><meta property="og:title" content="phusion/traveling-ruby"><meta property="og:url" content="https://github.com/phusion/traveling-ruby"><meta property="og:description" content="Self-contained, Ruby binaries that can run on any Linux distribution and any OS X machine. - phusion/traveling-ruby">
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+    <meta name="request-id" content="5A3A:193B:982B53E:9C1E585:5E02230A" data-pjax-transient="">
+
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+    <meta name="octolytics-host" content="collector.githubapp.com"><meta name="octolytics-app-id" content="github"><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event"><meta name="octolytics-dimension-request_id" content="5A3A:193B:982B53E:9C1E585:5E02230A"><meta name="octolytics-dimension-region_edge" content="sea"><meta name="octolytics-dimension-region_render" content="iad"><meta name="octolytics-dimension-ga_id" content="301404806.1573655352" class="js-octo-ga-id"><meta name="octolytics-dimension-visitor_id" content="8878977989854630709">
+
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true">
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+
+      <meta name="js-proxy-site-detection-payload" content="ZDVhNGUyMGI3ZmE2YjcxNTE5N2VjOWZlNDBjOGU2OGIzMGJjNjk5ZDhhYWZmMDUyOThlY2M4N2U0YzI0MGJjMnx7InJlbW90ZV9hZGRyZXNzIjoiMTAzLjIzMC4xMDcuMzAiLCJyZXF1ZXN0X2lkIjoiNUEzQToxOTNCOjk4MkI1M0U6OUMxRTU4NTo1RTAyMjMwQSIsInRpbWVzdGFtcCI6MTU3NzE5ODM0NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+    <meta name="html-safe-nonce" content="bb4e49035d4ecfcde5dcedf02bf4cf0c0e6921a2">
+
+  <meta http-equiv="x-pjax-version" content="61f8c219e8739359a3bf9c46bc342ad6">
+  
+
+      <link href="https://github.com/phusion/traveling-ruby/commits/master.atom" rel="alternate" title="Recent Commits to traveling-ruby:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/phusion/traveling-ruby git https://github.com/phusion/traveling-ruby.git">
+
+  <meta name="octolytics-dimension-user_id" content="830588"><meta name="octolytics-dimension-user_login" content="phusion"><meta name="octolytics-dimension-repository_id" content="27350433"><meta name="octolytics-dimension-repository_nwo" content="phusion/traveling-ruby"><meta name="octolytics-dimension-repository_public" content="true"><meta name="octolytics-dimension-repository_is_fork" content="false"><meta name="octolytics-dimension-repository_network_root_id" content="27350433"><meta name="octolytics-dimension-repository_network_root_nwo" content="phusion/traveling-ruby"><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false">
+
+
+    <link rel="canonical" href="https://github.com/phusion/traveling-ruby" data-pjax-transient="">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+
+
+  <link rel="manifest" href="https://github.com/manifest.json" crossorigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production min-width-lg">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+    
+
+
+        <header class="Header-old header-logged-out  position-relative f4 py-2" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-none">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0" aria-label="Global">
+          <ul class="d-flex list-style-none">
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
+                    <a href="https://github.com/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                          <li class="edge-item-fix"><a href="https://github.com/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="https://github.com/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class=" mr-3 mr-lg-3">
+                <a href="https://github.com/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="https://github.com/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class=" mr-3 mr-lg-3">
+                <a href="https://github.com/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
+                    <a href="https://github.com/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="https://github.com/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0  border-top pt-3">
+                      <li class="edge-item-fix"><a href="https://github.com/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">→</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex flex-items-center px-0 text-center text-left">
+          <div class="d-lg-flex ">
+            <div class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to" role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox" aria-expanded="false">
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="27350433" data-scoped-search-url="/phusion/traveling-ruby/search" data-unscoped-search-url="/search" action="/phusion/traveling-ruby/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text" class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable" data-hotkey="s,/" name="q" placeholder="Search" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off" aria-autocomplete="list" aria-controls="jump-to-results" aria-label="Search" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=VOvdfAiHIa4Dmsp7RllfwmMRo4dbIhRmXOYgIM6p6znlm3m/oNJ44ik/NxUyFatmkHNKYYtiLpT8OP+idKIXog==" spellcheck="false" autocomplete="off">
+          <input type="hidden" class="js-site-search-type-field" name="type">
+            <img src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="https://github.com/login?return_to=%2Fphusion%2Ftraveling-ruby" class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c877fcb55c1d09c840e72b323a673680c62b5a97f86eac0e7e42ea747afb2b0" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="https://github.com/join?source_repo=phusion%2Ftraveling-ruby" class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c877fcb55c1d09c840e72b323a673680c62b5a97f86eac0e7e42ea747afb2b0" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled="">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container="">
+      
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <div class=" pagehead repohead readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3d2b00d6e6028c4813c8d500453a9b7bdcee42356966db9bb33f151cf29728e4" href="https://github.com/login?return_to=%2Fphusion%2Ftraveling-ruby">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+    Watch
+</a>    <a class="social-count" href="https://github.com/phusion/traveling-ruby/watchers" aria-label="53 users are watching this repository">
+      53
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:27350433,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7ba6c09b9459005c000355b8e11a43725425bf3efc48a5740384158796b90e2d" href="https://github.com/login?return_to=%2Fphusion%2Ftraveling-ruby">
+      <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+
+      Star
+</a>
+    <a class="social-count js-social-count" href="https://github.com/phusion/traveling-ruby/stargazers" aria-label="1903 users starred this repository">
+      1.9k
+    </a>
+
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:27350433,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8beba435b8fd42b25cfc9ff2fd33a98db9fa13258737d9a937a5989fec6dbed9" href="https://github.com/login?return_to=%2Fphusion%2Ftraveling-ruby">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+        Fork
+</a>
+    <a href="https://github.com/phusion/traveling-ruby/network/members" class="social-count" aria-label="108 users forked this repository">
+      108
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/phusion/hovercard" href="https://github.com/phusion">phusion</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="https://github.com/phusion/traveling-ruby">traveling-ruby</a></strong>
+  
+
+</h1>
+
+    </div>
+    
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container" itemscope="" itemtype="http://schema.org/BreadcrumbList" aria-label="Repository" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /phusion/traveling-ruby" href="https://github.com/phusion/traveling-ruby">
+      <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg></div>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /phusion/traveling-ruby/issues" href="https://github.com/phusion/traveling-ruby/issues">
+        <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">22</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /phusion/traveling-ruby/pulls" href="https://github.com/phusion/traveling-ruby/pulls">
+      <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg></div>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">5</span>
+      <meta itemprop="position" content="4">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /phusion/traveling-ruby/projects" href="https://github.com/phusion/traveling-ruby/projects">
+      <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg></div>
+      Projects
+      <span class="Counter">0</span>
+</a>
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /phusion/traveling-ruby/wiki" href="https://github.com/phusion/traveling-ruby/wiki">
+      <div class="d-inline"><svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg></div>
+      Wiki
+</a>
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy code_scanning /phusion/traveling-ruby/security/advisories" href="https://github.com/phusion/traveling-ruby/security/advisories">
+      <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"></path></svg></div>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /phusion/traveling-ruby/pulse" href="https://github.com/phusion/traveling-ruby/pulse">
+      <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg></div>
+      Insights
+</a>
+
+</nav>
+
+
+  </div>
+<div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  px-3">
+  <div class="repository-content ">
+
+    
+    
+        <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="Cq8iHMM+T1pIRLWN49/m/vLrA24/Rf8b++BDL7MIR92CzSbk6K+DizY9cl/a2zH7N1zYz/rVpQVVj10rLrCeWg==">
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 40 million 
+developers working together to host and review code, manage projects, 
+and build software together.</p>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="09b7dbb2124dc344a4b7938d89662c8f710bfac3c56f0a4a26589ff86ef60fd4" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="https://github.com/join?source=prompt-code&amp;source_repo=phusion%2Ftraveling-ruby">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="mb-3">  <div class="f4">
+        <span class="text-gray-dark mr-2" itemprop="about">
+          Self-contained, Ruby binaries that can run on any Linux distribution and any OS X machine.
+        </span>
+        <span itemprop="url"><a rel="nofollow" href="http://phusion.github.io/traveling-ruby">http://phusion.github.io/traveling-ruby</a></span>
+  </div>
+</div>
+
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax="" href="https://github.com/phusion/traveling-ruby/commits/master">
+            <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"></path></svg>
+            <span class="num text-emphasized">
+              277
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax="" href="https://github.com/phusion/traveling-ruby/branches">
+          <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 00-1-3.72C.88 1 0 1.89 0 3a2 2 0 001 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          <span class="num text-emphasized">
+            4
+          </span>
+          branches
+        </a>
+      </li>
+
+        <li>
+          <a data-pjax="" href="https://github.com/phusion/traveling-ruby/packages" data-ga-click="Repository, packages click, location:repo overview">
+            <svg class="octicon octicon-package" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 00-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            packages
+          </a>
+
+        </li>
+
+      <li>
+        <a href="https://github.com/phusion/traveling-ruby/releases">
+          <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 000-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg>
+          <span class="num text-emphasized">
+            10
+          </span>
+          releases
+        </a>
+      </li>
+
+
+        <li>
+            <a href="https://github.com/phusion/traveling-ruby/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"></path></svg>
+    <span class="num text-emphasized">
+      13
+    </span>
+    contributors
+</a>        </li>
+
+        <li>
+          <a href="https://github.com/phusion/traveling-ruby/blob/master/LICENSE.md">
+            <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>
+              MIT
+          </a>
+        </li>
+    </ul>
+  </div>
+
+    <details class="details-reset">
+      <summary title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+        <div class="d-flex repository-lang-stats-graph">
+            <span class="language-color" aria-label="Shell 84.1%" style="width:84.1%; background-color:#89e051;" itemprop="keywords">Shell</span>
+            <span class="language-color" aria-label="Ruby 15.8%" style="width:15.8%; background-color:#701516;" itemprop="keywords">Ruby</span>
+            <span class="language-color" aria-label="Dockerfile 0.1%" style="width:0.1%; background-color:#384d54;" itemprop="keywords">Dockerfile</span>
+        </div>
+      </summary>
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="https://github.com/phusion/traveling-ruby/search?l=shell" data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#89e051;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">84.1%</span>
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/phusion/traveling-ruby/search?l=ruby" data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">15.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/phusion/traveling-ruby/search?l=dockerfile" data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#384d54;"></span>
+                <span class="lang">Dockerfile</span>
+                <span class="percent">0.1%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </details>
+
+
+
+
+
+
+  <div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<details class="details-reset details-overlay select-menu branch-select-menu  hx_rsm" id="branch-select-menu">
+  <summary class="btn btn-sm select-menu-button css-truncate" data-hotkey="w" title="Switch branches or tags" aria-haspopup="menu" role="button">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button="">master</span>
+  </summary>
+
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/phusion/traveling-ruby/refs/master?source_action=disambiguate&amp;source_controller=files" preload="" role="menu">
+    <include-fragment class="select-menu-loading-overlay anim-pulse">
+      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+    </include-fragment>
+  </details-menu>
+</details>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+  <div class="BtnGroup">
+
+    <a class="btn btn-sm empty-icon float-right BtnGroup-item" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:27350433,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8baeb141fe933edd13b758d33ccfe949354050bb36a5c48851f9f5f442008a07" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="https://github.com/phusion/traveling-ruby/find/master">Find file</a>
+  </div>
+
+  
+
+
+    
+
+    <details class="get-repo-select-menu js-get-repo-select-menu js-anon-get-repo-select-menu position-relative details-overlay details-reset">
+  <summary class="btn btn-sm ml-2 btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:27350433,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="56cccefaa92048134793e1bf1f43459da4400ac7e6f1031cc955b12aa55978b5">
+    Clone or download
+    <span class="dropdown-caret"></span>
+</summary>  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect="" value="https://github.com/phusion/traveling-ruby.git" aria-label="Clone this repository at https://github.com/phusion/traveling-ruby.git" readonly="readonly">
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/phusion/traveling-ruby.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:27350433,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c989e89897df42f264944bd45c17bafba2ae183ee26617cb89dc8c0ce887420" tabindex="0" role="button"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a class="btn btn-outline get-repo-btn js-anon-download-zip-link " rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:27350433,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b7116f9010aa36016f850d544eeaeacce3fa1ce7153b3cdcbe732bc7cefa9d6f" data-ga-click="Repository, download zip, location:repo overview" href="https://github.com/phusion/traveling-ruby/archive/master.zip">Download ZIP</a>
+
+        </div>
+      </div>
+
+        <div class="js-modal-downloading" hidden="">
+          <div class="py-2 px-3">
+            <h4 class="lh-condensed mb-3">Downloading<span class="AnimatedEllipsis"></span></h4>
+            <p class="text-gray">
+              Want to be notified of new releases in
+              <span class="text-bold">phusion/traveling-ruby</span>?
+            </p>
+          </div>
+          <div class="width-full d-flex">
+            <a rel="nofollow" class="get-repo-btn btn btn-outline" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:27350433,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="759b1f1640b49e7f768426bb1db003198758fe4a300263c26d882e5b16826374" href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fphusion%2Ftraveling-ruby">Sign in</a>
+            <a rel="nofollow" class="get-repo-btn btn btn-primary" style="width: 50%" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;download popover&quot;,&quot;repository_id&quot;:27350433,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7f668a4f5265b14749f4b88f4017b0615dc624e5127429a00f7b761cdf18e510" href="https://github.com/join?branch=master&amp;source=download&amp;source_repo=phusion%2Ftraveling-ruby">Sign up</a>
+          </div>
+        </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="AnimatedEllipsis"></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details d-flex rounded-top-1" data-issue-and-pr-hovercards-enabled="">
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="FooBarWidget">
+        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/FooBarWidget/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/FooBarWidget">
+          <img alt="@FooBarWidget" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/819.jpeg" width="20" height="20">
+</a>  </div>
+</div>
+
+    <div class="flex-auto f6 mr-3">
+      
+      <a href="https://github.com/phusion/traveling-ruby/commits?author=FooBarWidget" class="commit-author tooltipped tooltipped-s user-mention" aria-label="View all commits by FooBarWidget">FooBarWidget</a>
+
+
+  
+
+
+        <a data-pjax="true" title="README: compare with enclose.io/ruby-packer" class="message text-inherit" href="https://github.com/phusion/traveling-ruby/commit/7e9598ee6c827b104f880b565e168b6ed99e1102">README: compare with enclose.io/ruby-packer</a>
+
+    </div>
+    <div class="no-wrap d-flex flex-self-start flex-items-baseline">
+        <span class="mr-2 flex-self-center">
+          
+        </span>
+      <span class="mr-1">Latest commit</span>
+      <a class="commit-tease-sha mr-1" href="https://github.com/phusion/traveling-ruby/commit/7e9598ee6c827b104f880b565e168b6ed99e1102" data-pjax="">
+        7e9598e
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2018-09-24T09:04:15Z" class="no-wrap" title="Sep 24, 2018, 3:04 PM GMT+6">on Sep 24, 2018</relative-time></span>
+    </div>
+  </div>
+
+
+
+<div class="file-wrap">
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="https://github.com/phusion/traveling-ruby/tree/7e9598ee6c827b104f880b565e168b6ed99e1102">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax="">
+    <thead>
+      <tr>
+        <th><span class="sr-only">Type</span></th>
+        <th><span class="sr-only">Name</span></th>
+        <th><span class="sr-only">Latest commit message</span></th>
+        <th><span class="sr-only">Commit time</span></th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="doc" id="9a09b4dfda82e3e665e31092d1c3ec8d-09e11bcee0f9a75d8fbc4ca054d1ea4638a022b9" href="https://github.com/phusion/traveling-ruby/tree/master/doc">doc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Document OS X build system" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/3cca20a42e87950c60a7fc1f987c7a3af52d0616">Document OS X build system</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-04T13:43:50Z" class="no-wrap" title="Feb 4, 2015, 7:43 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="linux" id="e206a54e97690cce50cc872dd70ee896-8b420040c1fd83161c84057666ec55f07dfef025" href="https://github.com/phusion/traveling-ruby/tree/master/linux">linux</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixed OpenSSL download URLs" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/65559a49f01421834022f6690d740f60882343c5">Fixed OpenSSL download URLs</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-17T20:41:22Z" class="no-wrap" title="Feb 18, 2016, 2:41 AM GMT+6">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="osx" id="8e4f88e9d6ec0106ccc73b39d369c3e8-1fe7c554b90eeff6ec12aaf54a97de02e4efb191" href="https://github.com/phusion/traveling-ruby/tree/master/osx">osx</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge pull request #69 from KrauseFx/fixed-openssl
+
+Fixed OpenSSL download URLs" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/72e062bc4fe97dfa6d8960730f519b2d10976d7b">Merge pull request</a> <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="134394273" data-permission-text="Issue title is private" data-url="https://github.com/phusion/traveling-ruby/issues/69" data-hovercard-type="pull_request" data-hovercard-url="/phusion/traveling-ruby/pull/69/hovercard" href="https://github.com/phusion/traveling-ruby/pull/69">#69</a> <a data-pjax="true" title="Merge pull request #69 from KrauseFx/fixed-openssl
+
+Fixed OpenSSL download URLs" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/72e062bc4fe97dfa6d8960730f519b2d10976d7b">from KrauseFx/fixed-openssl</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-19T19:16:41Z" class="no-wrap" title="Feb 20, 2016, 1:16 AM GMT+6">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="shared" id="9e81e7b963c71363e2fb3eefcfecfc0e-c48e7ff14463a95261dcfe31513ba1c4485c3434" href="https://github.com/phusion/traveling-ruby/tree/master/shared">shared</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove unused debugging code" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/dce9e69eb5d1dca8face5dec6c795e9906758a0e">Remove unused debugging code</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-19T07:15:24Z" class="no-wrap" title="May 19, 2015, 1:15 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="windows" id="0f4137ed1502b5045d6083aa258b5c42-eb8756ac7579f8a7336688e7a895411caf3be100" href="https://github.com/phusion/traveling-ruby/tree/master/windows">windows</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Windows: support Ruby 2.2" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/8cd05af988583df886cf915e16e46747a963dd6e">Windows: support Ruby 2.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-18T19:17:30Z" class="no-wrap" title="May 19, 2015, 1:17 AM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".agignore" id="be72785f8a596c2fc4f410460658fb46-2cdf41ca1be3374c20e0dd4a7d0a737c5427e9c7" href="https://github.com/phusion/traveling-ruby/blob/master/.agignore">.agignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add .agignore" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/d98c9b12571dc6af0d5b0c0aa3b49612b7031451">Add .agignore</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-12-15T08:45:09Z" class="no-wrap" title="Dec 15, 2014, 2:45 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".editorconfig" id="1e70daafb475c0ce3fef7d2728279182-2714ed1274732839ee838064a40bdd575c329e5e" href="https://github.com/phusion/traveling-ruby/blob/master/.editorconfig">.editorconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Ruby 2.2.0, further remove unnecessary files" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/2ad0b894081178e0767b9813c08965280245d7d5">Add Ruby 2.2.0, further remove unnecessary files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-06T16:50:57Z" class="no-wrap" title="Feb 6, 2015, 10:50 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-a93dbbd65cc63c2b685c1279bcf8df411a356535" href="https://github.com/phusion/traveling-ruby/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Sublime Text project" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/342f80efc01d37d9740aa9f84dc61e018e2884b7">Add Sublime Text project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-18T19:17:31Z" class="no-wrap" title="May 19, 2015, 1:17 AM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="BUNDLER_VERSION.txt" id="a2a1345a9ddb919f3f113648075f6e31-6ae756c47904129f38784f78f9b40b7afea7375e" href="https://github.com/phusion/traveling-ruby/blob/master/BUNDLER_VERSION.txt">BUNDLER_VERSION.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Upgrade bundler to 1.9.9" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/5cd77dd7b3d6abaade0dc8b0f16528b100d2ceeb">Upgrade bundler to 1.9.9</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-17T15:10:33Z" class="no-wrap" title="May 17, 2015, 9:10 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CHANGELOG.md" id="4ac32a78649ca5bdd8e0ba38b7006a1e-0757c6ffe97b95bf999eddc811b2af59fdec1d01" href="https://github.com/phusion/traveling-ruby/blob/master/CHANGELOG.md">CHANGELOG.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Upgrade OpenSSL version to 1.0.2d" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/0826670a56797afe5bafca90ab7bed49bfa07bf9">Upgrade OpenSSL version to 1.0.2d</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-07-14T12:58:34Z" class="no-wrap" title="Jul 14, 2015, 6:58 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CODE_OF_CONDUCT.md" id="a1ee87dafebc22cbd96979f1b2b7e837-a81d5f515faf9b4d36ed5d7535d4d3de2f3bf3fb" href="https://github.com/phusion/traveling-ruby/blob/master/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add CoC, contributing guide and reporting templates" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/5460fdcba7ebd432c98aa1d2049a8256d66280b7">add CoC, contributing guide and reporting templates</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-15T16:10:43Z" class="no-wrap" title="Mar 15, 2018, 10:10 PM GMT+6">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-f96a05c622b75d37d3c4da4bd07ee562c704c311" href="https://github.com/phusion/traveling-ruby/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add CoC, contributing guide and reporting templates" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/5460fdcba7ebd432c98aa1d2049a8256d66280b7">add CoC, contributing guide and reporting templates</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-15T16:10:43Z" class="no-wrap" title="Mar 15, 2018, 10:10 PM GMT+6">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE.md" id="37854d19817c792316d481f5beb93cc7-eefbd1c2bea8f4fbd259e22fafa660b6aea9bdb5" itemprop="license" href="https://github.com/phusion/traveling-ruby/blob/master/LICENSE.md">LICENSE.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add license" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/af00b3c724c3bc4b878320bb24866f46a0f5424e">Add license</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-12-06T13:20:03Z" class="no-wrap" title="Dec 6, 2014, 7:20 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-903394d27f65f0136ce1248f76748251d396293c" href="https://github.com/phusion/traveling-ruby/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="README: compare with enclose.io/ruby-packer" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/7e9598ee6c827b104f880b565e168b6ed99e1102">README: compare with enclose.io/ruby-packer</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-09-24T09:04:25Z" class="no-wrap" title="Sep 24, 2018, 3:04 PM GMT+6">last year</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="REDUCING_PACKAGE_SIZE.md" id="a7427445dc0fb3fff67a305b00ced51e-fa3c2225ed35546ebd64d79b6486d1cedd14faf0" href="https://github.com/phusion/traveling-ruby/blob/master/REDUCING_PACKAGE_SIZE.md">REDUCING_PACKAGE_SIZE.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Document removal of unnecessary encodings" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/4aeb8246acef596db85ae08359c1077b4a0f6dea">Document removal of unnecessary encodings</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-05T11:04:08Z" class="no-wrap" title="Feb 5, 2015, 5:04 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="RUBY_VERSIONS.txt" id="1689365dca129f592c9b9eef5422fa53-eb22bd1997297b3925d83d221a493d6d37320c57" href="https://github.com/phusion/traveling-ruby/blob/master/RUBY_VERSIONS.txt">RUBY_VERSIONS.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Upgrade to Ruby 2.1.6 and 2.2.0" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/defa66168c8173d4981859456784338d2643c1de">Upgrade to Ruby 2.1.6 and 2.2.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-17T11:04:30Z" class="no-wrap" title="May 17, 2015, 5:04 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="TUTORIAL-1.md" id="f08b2ca704a072e6b67bd6183e55d33f-7f8b07d49aaa2e67c2d15ba73a18b4faed065d5a" href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-1.md">TUTORIAL-1.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Switched to HTTPs" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/65aeff97bdee4a6488777fddc67214971f1c27d7">Switched to HTTPs</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-10T01:00:56Z" class="no-wrap" title="Feb 10, 2016, 7:00 AM GMT+6">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="TUTORIAL-2.md" id="e1f204f381888d5103a1c54d1cb17469-66c0e7ae088059547263a107533cc20c0d4322ce" href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-2.md">TUTORIAL-2.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Updated to https" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/81ed13c0b149407e17c0d6af298ac0b4f1edd905">Updated to https</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-10T01:01:29Z" class="no-wrap" title="Feb 10, 2016, 7:01 AM GMT+6">4 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="TUTORIAL-3.md" id="73141934d14e9f7a1250ad695d32afff-6a961df586326065a01bad30b1d2e498c0e9514e" href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-3.md">TUTORIAL-3.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix typo in TUTORIAL-3.md" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/4559669b0ef139f7c9b6bfe2a6fa0770f5f0a702">Fix typo in TUTORIAL-3.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-28T17:34:10Z" class="no-wrap" title="Oct 28, 2016, 11:34 PM GMT+6">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="TUTORIAL-4.md" id="aa0d75535f2c06f87cb787bcfb04d5e1-f1fb7803d2e3e7b06c311ff4b320b450b2726d82" href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-4.md">TUTORIAL-4.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix some typos in tutorial 4" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/4b879e6049c8b38e9b1e82bf392dae5ff0d0fadb">Fix some typos in tutorial 4</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-09T17:22:00Z" class="no-wrap" title="Feb 9, 2015, 11:22 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="TravelingRuby.sublime-project" id="6a92353ae2e0ef7921c1474318857d64-244659c0e0f46a5d7d185a163c90941e78ce696a" href="https://github.com/phusion/traveling-ruby/blob/master/TravelingRuby.sublime-project">TravelingRuby.sublime-project</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Sublime Text project" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/342f80efc01d37d9740aa9f84dc61e018e2884b7">Add Sublime Text project</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-18T19:17:31Z" class="no-wrap" title="May 19, 2015, 1:17 AM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="VERSION.txt" id="780b48c08acd302f35338634f56df2ae-7c1760f05471595a9b94ffc2a56e8bb198fae3d3" href="https://github.com/phusion/traveling-ruby/blob/master/VERSION.txt">VERSION.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Upgrade OpenSSL version to 1.0.2d" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/0826670a56797afe5bafca90ab7bed49bfa07bf9">Upgrade OpenSSL version to 1.0.2d</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-07-14T12:58:34Z" class="no-wrap" title="Jul 14, 2015, 6:58 PM GMT+6">5 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="issue_template.md" id="73b0bbea38d6aa7416165f03267cefb4-c94bd90044068796a05b452085566e869722ab42" href="https://github.com/phusion/traveling-ruby/blob/master/issue_template.md">issue_template.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add CoC, contributing guide and reporting templates" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/5460fdcba7ebd432c98aa1d2049a8256d66280b7">add CoC, contributing guide and reporting templates</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-15T16:10:43Z" class="no-wrap" title="Mar 15, 2018, 10:10 PM GMT+6">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img class="spinner" alt="" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/octocat-spinner-32.gif" width="16" height="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="pull_request_template.md" id="081a901bcd6f61bef29110a1bc408818-6444004afbf344a99b5e60d84896a045f06b4264" href="https://github.com/phusion/traveling-ruby/blob/master/pull_request_template.md">pull_request_template.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update pull_request_template.md" class="link-gray" href="https://github.com/phusion/traveling-ruby/commit/8bc4ee7fcbf7e7cda6350d59b8f0a022e6c56452">Update pull_request_template.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-25T21:12:31Z" class="no-wrap" title="Mar 26, 2018, 3:12 AM GMT+6">2 years ago</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+
+  <div id="readme" class="Box Box--condensed md js-code-block-container">
+    <div class="Box-header d-flex flex-items-center flex-justify-between px-2">
+      <h3 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+        README.md
+      </h3>
+    </div>
+        <div class="Popover anim-scale-in js-tagsearch-popover" data-tagsearch-url="/phusion/traveling-ruby/find-symbols" data-tagsearch-ref="master" data-tagsearch-path="README.md" data-tagsearch-lang="Markdown" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:27350433,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;client_id&quot;:&quot;2067298160.1573655349&quot;,&quot;originating_request_id&quot;:&quot;5A3A:193B:982B53E:9C1E585:5E02230A&quot;,&quot;originating_url&quot;:&quot;https://github.com/phusion/traveling-ruby&quot;,&quot;referrer&quot;:&quot;https://phusion.github.io/traveling-ruby/&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8b01c84a1e0a25d784981d4d20c5d5cd21de949894b154b057d05851a748d511" hidden="">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
+
+      <div class="Box-body">
+        <article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-traveling-ruby-self-contained-portable-ruby-binaries" class="anchor" aria-hidden="true" href="#traveling-ruby-self-contained-portable-ruby-binaries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Traveling Ruby: self-contained, portable Ruby binaries</h1>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/199615000befca8446241e5abd7cdde66f043692/68747470733a2f2f6f70656e636c69706172742e6f72672f696d6167652f33303070782f7376675f746f5f706e672f3138313232352f54726176656c5f6261636b7061636b732e706e67"><img src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/68747470733a2f2f6f70656e636c69706172742e6f72672f696d6167652f.png" alt="" data-canonical-src="https://openclipart.org/image/300px/svg_to_png/181225/Travel_backpacks.png" style="max-width:100%;"></a></p>
+<p>Traveling Ruby is a project which supplies self-contained, "portable"
+ Ruby binaries: Ruby binaries that can run on any Linux distribution and
+ any OS X machine. It also has Windows support <a href="#caveats">(with some caveats)</a>.
+ This allows Ruby app developers to bundle these binaries with their 
+Ruby app, so that they can distribute a single package to end users, 
+without needing end users to first install Ruby or gems.</p>
+<p><a href="https://vimeo.com/phusionnl/review/113827942/ceca7e70da" rel="nofollow"><img src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/video.png" alt="" style="max-width:100%;"></a></p>
+<p><em>Introduction in 2 minutes</em></p>
+<h2><a id="user-content-motivation" class="anchor" aria-hidden="true" href="#motivation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Motivation</h2>
+<p>Ruby is one of our favorite programming languages. Most people use it
+ for web development, but Ruby is so much more. We at Phusion have been 
+using Ruby for years for writing sysadmin automation scripts, developer 
+command line tools and more. <a href="https://toolbelt.heroku.com/" rel="nofollow">Heroku's Toolbelt</a> and <a href="https://www.chef.io/" rel="nofollow">Chef</a> have also demonstrated that Ruby is an excellent language for these sorts of things.</p>
+<p>However, distributing such Ruby apps to inexperienced end users or 
+non-Ruby-programmer end users is problematic. If users have to install 
+Ruby first, or if they have to use RubyGems, <a href="#end_user_problems">they can easily run into problems</a>. Even if they already have Ruby installed, they <a href="#end_user_problems">can still run into problems</a>, e.g. by having the wrong Ruby version installed. The point is, it's a very real problem that <a href="#end_user_problems">could harm your reputation</a>.</p>
+<p>One solution is to build OS-specific installation packages, e.g. DEBs, RPMs, .pkgs, etc. However, this has two disadvantages:</p>
+<ol>
+<li>It requires a lot of work. You not only have to build separate packages for each OS, but also each OS <em>version</em>.
+ And in the context of Linux, you have to treat each distribution as 
+another OS, further increasing the number of combinations. Suppose that 
+you want to support ~2 versions of CentOS/RHEL, ~2 versions of Debian, 
+~3 versions of Ubuntu, ~2 recent OS X releases, on both x86 and x86_64. 
+You'll have to create <code>(2 + 2 + 3) * 2 + 2 = 16</code> packages.</li>
+<li>Because you typically cannot build an OS-specific installation 
+package using anything but that OS, you need heavyweight tooling, e.g. a
+ fleet of VMs. For example, you can only build Ubuntu 14.04 DEBs on 
+Ubuntu 14.04; you cannot build them from your OS X developer laptop.</li>
+</ol>
+<p>This is exactly the approach that Chef has chosen. They built <a href="https://github.com/opscode/omnibus">Omnibus</a>,
+ an automation system which spawns an army of VMs for building 
+platform-specific packages. It works, but it's heavyweight and a big 
+hassle. You need a big build machine for that if you want to have 
+reasonable build time. And be prepared to make 20 cups of coffee.</p>
+<p>But there is another — much simpler — solution.</p>
+<h3><a id="user-content-way-of-the-traveling-ruby" class="anchor" aria-hidden="true" href="#way-of-the-traveling-ruby"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Way of the Traveling Ruby</h3>
+<p>The solution that Traveling Ruby advocates, is to distribute your app
+ as a single self-contained tar.gz/zip package that already includes a 
+precompiled Ruby interpreter for a specific platform (that the Traveling
+ Ruby project provides), as well as all gems that your app depends on. 
+This eliminates the need for heavyweight tooling:</p>
+<ul>
+<li>A tar.gz/zip file can be created on any platform using small and simple tools.</li>
+<li>You can create packages for any OS, regardless of which OS you are using.</li>
+</ul>
+<p>This makes the release process much simpler. Instead of having to 
+create more than 10 packages using a fleet of VMs, you just create 3 
+packages quickly and easily from your developer laptop. These 3 packages
+ cover all the major platforms that your end users are on:</p>
+<ul>
+<li>Linux x86.</li>
+<li>Linux x86_64.</li>
+<li>OS X.</li>
+<li>Windows. But see <a href="#caveats">the Windows-specific caveats</a>.</li>
+</ul>
+<p>However, distributing a precompiled Ruby interpreter that works for all end users, is more easily said than done. <a href="#why_precompiled_binary_difficult">Read this section</a> to learn why it's difficult.</p>
+<p>Traveling Ruby aims to solve the problem of supplying precompiled <strong>Ruby 2.1</strong> binaries that work for all end users.</p>
+<h2><a id="user-content-getting-started" class="anchor" aria-hidden="true" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting started</h2>
+<p>Begin with the tutorials:</p>
+<ul>
+<li><a href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-1.md">Tutorial 1: hello world</a> - Learn in 5 minutes how to create self-contained packages of a hello world app without gem dependencies.</li>
+<li><a href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-2.md">Tutorial 2: gem dependencies</a> - Managing and packaging gem dependencies using Bundler.</li>
+<li><a href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-3.md">Tutorial 3: native extensions</a> - Managing and packaging native extension gems.</li>
+<li><a href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-4.md">Tutorial 4: creating packages for Windows</a> - Creating packages for Windows users.</li>
+</ul>
+<p>Once you've finished the tutorials, read the guides for intermediate to advanced topics:</p>
+<ul>
+<li><a href="https://github.com/phusion/traveling-ruby/blob/master/REDUCING_PACKAGE_SIZE.md">Reducing the size of your Traveling Ruby packages</a></li>
+</ul>
+<p>There are also some real-world examples of how people used Traveling Ruby to package their Ruby tools:</p>
+<ul>
+<li><strong>BOSH (release engineering tool)</strong><br>
+<a href="https://blog.starkandwayne.com/2014/12/24/traveling-bosh-cli-no-more-installation-pain/" rel="nofollow">Blog post</a> | <a href="https://github.com/cloudfoundry-community/traveling-bosh">Github repo</a></li>
+<li><strong>Elasticrawl (AWS Elastic MapReduce job runner)</strong><br>
+<a href="https://rossfairbanks.com/2015/01/13/packaging-elasticrawl-using-traveling-ruby.html" rel="nofollow">Blog post</a> | <a href="https://github.com/rossf7/traveling-elasticrawl">Github repo</a></li>
+<li><strong>VirtKick (cloud web panel)</strong><br>
+<a href="https://github.com/virtkick/virtkick-webapp">Github repo</a></li>
+<li><strong>Octodown (Github markdown preview tool)</strong><br>
+<a href="https://github.com/ianks/octodown">Github repo</a> | <a href="https://github.com/ianks/octodown/issues/29">Traveling Ruby issue</a> | <a href="https://github.com/ianks/octodown/pull/38">Traveling Ruby pull request</a></li>
+<li><strong>WebAirplay (local webapp to send videos to airplay devices)</strong><br>
+<a href="https://github.com/antulik/web-airplay">Github repo</a></li>
+</ul>
+<p><a name="user-content-caveats"></a></p>
+<h2><a id="user-content-caveats" class="anchor" aria-hidden="true" href="#caveats"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caveats</h2>
+<p>Native extensions:</p>
+<ul>
+<li>Traveling Ruby only supports native extensions when creating Linux 
+and OS X packages. Native extensions are currently not supported when 
+creating Windows packages.</li>
+<li>Traveling Ruby only supports a number of popular native extension 
+gems, and only in some specific versions. You cannot use just any native
+ extension gem.</li>
+<li>Native extensions are covered in <a href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-3.md">tutorial 3</a>.</li>
+</ul>
+<p>Windows support:</p>
+<ul>
+<li>
+<p>Traveling Ruby supports creating packages <em>for</em> Windows, but it does not yet support creating packages <em>on</em>
+ Windows. That is, the Traveling Ruby tutorials and the documentation do
+ not work when you are a Ruby developer on Windows. To create Windows 
+packages, you must use OS X or Linux.</p>
+<p>This is because in our documentation we make heavy use of standard 
+Unix tools. Tools which are not available on Windows. In the future we 
+may replace the use of such tools with Ruby tools so that the 
+documentation works on Windows too.</p>
+</li>
+<li>
+<p>Traveling Ruby currently supports Ruby 2.1.5 and Ruby 2.2.0 for Linux
+ and OS X. But for Windows, only Ruby 2.1.5 is supported. This is 
+because <a href="http://rubyinstaller.org/" rel="nofollow">the RubyInstaller project</a> hasn't released Ruby 2.2.0 binaries yet.</p>
+</li>
+<li>
+<p>Native extensions are not yet supported.</p>
+</li>
+</ul>
+<h2><a id="user-content-building-binaries" class="anchor" aria-hidden="true" href="#building-binaries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Building binaries</h2>
+<p>The Traveling Ruby project supplies binaries that application 
+developers can use. These binaries are built using the build systems in 
+this repository. As an application developer, you do not have to use the
+ build system. You only have to use the build systems when contributing 
+to Traveling Ruby, when trying to reproduce our binaries, or when you 
+want to customize the binaries.</p>
+<p>For the Linux build system, see <a href="https://github.com/phusion/traveling-ruby/blob/master/linux/README.md">linux/README.md</a>.</p>
+<p>For the OS X build system, see <a href="https://github.com/phusion/traveling-ruby/blob/master/osx/README.md">osx/README.md</a>.</p>
+<h2><a id="user-content-future-work" class="anchor" aria-hidden="true" href="#future-work"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Future work</h2>
+<ul>
+<li>Provide a Rails example.</li>
+<li>Native extensions support for Windows. We're currently blocked by the fact that <a href="http://rubyinstaller.org/" rel="nofollow">the RubyInstaller project</a> hasn't been updated for Ruby 2.2.0 yet.</li>
+<li>Document the Windows build system.</li>
+<li>Support for creating a single executable instead of a directory.</li>
+<li>Draw inspiration from <a href="http://enclose.io/" rel="nofollow">enclose.io</a>/<a href="https://github.com/pmq20/ruby-packer">ruby-packer</a>. See <a href="https://news.ycombinator.com/item?id=18056048" rel="nofollow">this Hacker News comment</a> for my comparison analysis.</li>
+</ul>
+<h2><a id="user-content-faq" class="anchor" aria-hidden="true" href="#faq"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FAQ</h2>
+<p><a name="user-content-why_precompiled_binary_difficult"></a></p>
+<h3><a id="user-content-why-it-is-difficult-to-supply-a-precompiled-ruby-interpreter-that-works-for-all-end-users" class="anchor" aria-hidden="true" href="#why-it-is-difficult-to-supply-a-precompiled-ruby-interpreter-that-works-for-all-end-users"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why it is difficult to supply a precompiled Ruby interpreter that works for all end users?</h3>
+<p>Chances are that you think that you can compile a Ruby binary on a 
+certain OS, and that users using that same OS can use your Ruby binary. 
+Not quite. Not even when they run the same OS <em>version</em> as you do.</p>
+<p>Basically, there are two problems that can prevent a binary from working on another system:</p>
+<ol>
+<li>Libraries that your binary depends on, may not be available on the user's OS.
+<ul>
+<li>When compiling Ruby, you might accidentally introduce a dependency 
+on a non-standard library! As a developer you probably have all sorts 
+non-standard libraries installed on your system. While compiling Ruby, 
+the Ruby build system autodetects certain libraries and links to them.</li>
+<li>Even different versions of the same OS ship with different 
+libraries! You cannot count on a certain library from an older OS 
+version, to be still available on a newer version of the same OS.</li>
+</ul>
+</li>
+<li>On Linux, there are issues with glibc symbols. This is a little more complicated, so read on.</li>
+</ol>
+<p>Assuming that your binary doesn't use <em>any</em> libraries besides 
+the C standard library, binaries compiled on a newer Linux system 
+usually do not work on an older Linux system, even if you do not use 
+newer APIs. This is because of glibc symbols. Each function in glibc - 
+or symbol as C/C++ programmers call it - actually has multiple versions.
+ This allows the glibc developers to change the behavior of a function 
+without breaking backwards compatibility with apps that happen to rely 
+on bugs or implementation-specific behavior. During the linking phase, 
+the linker "helpfully" links against the most recent version of the 
+symbol. The thing is, glibc introduces new symbol versions very often, 
+resulting in binaries that will most likely depend on a recent glibc.</p>
+<p>There is no way to tell the compiler and linker to use older symbol 
+versions unless you want to manually specify the version for each and 
+every symbol, which is an undoable task.</p>
+<p>The only sane way to get around the glibc symbol problem, and to 
+prevent accidental linking to unwanted libraries, is to create a tightly
+ controlled build environment. On Linux, this build environment with 
+come with an old glibc version. This tightly controlled build 
+environment is sometimes called a "holy build box".</p>
+<p>The Traveling Ruby project provides such a holy build box.</p>
+<h4><a id="user-content-why-not-just-statically-link-the-ruby-binary" class="anchor" aria-hidden="true" href="#why-not-just-statically-link-the-ruby-binary"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why not just statically link the Ruby binary?</h4>
+<p>First of all: easier said than done. The compiler prefers to link to 
+dynamic libraries. You have to hand-edit lots of Makefiles to make 
+everything properly link statically. You can't just add <code>-static</code> as compiler flag and expect everything to work.</p>
+<p>Second: Ruby is incompatible with static linking. On Linux systems, 
+executables which are statically linked to the C library cannot 
+dynamically load shared libraries. Yet Ruby extensions are shared 
+libraries, and a Ruby interpreter that cannot load Ruby extensions is 
+heavily crippled.</p>
+<p>So in Traveling Ruby we've taken a different approach. Our Ruby 
+binaries are dynamically linked against the C library, but only uses old
+ symbols to avoid glibc symbol problems. We also ship carefully-compiled
+ versions of dependent shared libraries, like OpenSSL, ncurses, libedit,
+ etc.</p>
+<p><a name="user-content-end_user_problems"></a></p>
+<h3><a id="user-content-why-is-it-problematic-for-end-users-if-i-dont-bundle-a-ruby-interpreter" class="anchor" aria-hidden="true" href="#why-is-it-problematic-for-end-users-if-i-dont-bundle-a-ruby-interpreter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why is it problematic for end users if I don't bundle a Ruby interpreter?</h3>
+<p>First of all, users just want to run your app as quickly as possible.
+ Requiring them to install Ruby first is not only a distraction, but it 
+can also cause problems. Here are a few examples of such problems:</p>
+<ul>
+<li>There are various ways to install Ruby, e.g. by compiling from source, by using <code>apt-get</code> and <code>yum</code>,
+ by using RVM/rbenv/chruby, etc. The choices are obvious to us, but 
+users could get confused by the sheer number of choices. Worse: not all 
+choices are good. APT and YUM often provide old versions of Ruby, which 
+may not be the one that you want. Compiling from source and using 
+rbenv/chruby requires the user to have a compiler toolchain and 
+appropriate libraries pre-installed. How should they know what to 
+pre-install before they can install Ruby? The Internet is filled with a 
+ton of old and outdated tutorials, further increasing their confusion.</li>
+<li>Users could install Ruby incorrectly, e.g. to a location that isn't 
+in PATH. They could then struggle with "command not found" errors. PATH 
+is obvious to us, but there are a lot of users out there can barely use 
+the command line. We shouldn't punish them for lack of knowledge, they 
+are end users after all.</li>
+</ul>
+<p>One way to solve this is for you to "hold the user's hand", by going 
+through the trouble of supplying 4 or 5 different platform-specific 
+installation instructions for installing Ruby. These instructions must 
+be continuously kept up-to-date. That's a lot of work and QA on your 
+part, and I'm sure you just want to concentrate on building your app.</p>
+<p>And let's for the sake of argument suppose that the user somehow has 
+Ruby correctly installed. They still need to install your app. The most 
+obvious way to do that is through RubyGems. But that will open a whole 
+new can of worms:</p>
+<ul>
+<li>
+<p>On some OSes, RubyGems is configured in such a way that the 
+RubyGems-installed commands are not in PATH. For a classic example, try 
+running this on Debian 6:</p>
+<pre><code> $ sudo apt-get install rubygems
+ $ sudo gem install rails
+ $ rails new foo
+ bash: rails: command not found
+</code></pre>
+<p>Not a good first impression for end users.</p>
+</li>
+<li>
+<p>Depending on how Ruby is installed, you may or may not have to run <code>gem install</code> with <code>sudo</code>. It depends on whether <code>GEM_HOME</code> is writable by the current user or not. You can't tell them "always run with sudo", because if their <code>GEM_HOME</code> is in their home directory, running <code>gem install</code> with sudo will mess up all sorts of permissions.</p>
+</li>
+<li>
+<p>Did I just mention <code>sudo</code>? No, because <code>sudo</code> by default resets a lot of environment variables. Environment variables which may be important for Ruby to work.</p>
+<ul>
+<li>If the user installed Ruby with RVM, then the user has to run <code>rvmsudo</code> instead of sudo. RVM is implemented by setting <code>PATH</code>, <code>RUBYLIB</code>, <code>GEM_HOME</code> and other environment variables. rvmsudo is a wrapper around sudo which preserves these environment variables.</li>
+<li>If the user installed Ruby with rbenv or chruby... pray that they 
+know what they're doing. Rbenv and chruby also require correct <code>PATH</code>, <code>RUBYLIB</code>, <code>GEM_HOME</code>
+ etc to be set to specific values, but they provide no rvmsudo-like tool
+ for preserving them after taking sudo access. So if you want to be 
+user-friendly, you have to write documentation that tells users to sudo 
+to a bash shell first, fix their <code>PATH</code>, <code>RUBYLIB</code> etc, and <em>then</em> run <code>gem install</code>.</li>
+</ul>
+</li>
+</ul>
+<p>The point is, there's a lot of opportunity for end users to get 
+stuck, confused and frustrated. You can deal with all these problems by 
+supplying excellent documentation that handles all of these cases (and 
+probably more, because there are infinite ways to break things). That's 
+exactly what we've done for <a href="https://www.phusionpassenger.com/" rel="nofollow">Phusion Passenger</a>. Our <a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#rubygems_generic_install" rel="nofollow">RubyGems installation instructions</a> spell out exactly how to install Ruby for each of the major operating systems, how to find out whether they need to run <code>gem install</code>
+ with sudo, how to find out whether they need to run rvmsudo instead of 
+sudo. It has been a lot of work, and even then we still haven't covered 
+all the cases. We're still lacking documentation on what rbenv and 
+chruby users should do. Right now, rbenv/chruby users regularly contact 
+our community discussion forum about installation problems related to 
+sudo access and environment variables.</p>
+<p>Or you can just use Traveling Ruby and be done with it. We can't do 
+it for Phusion Passenger because by its very nature it has to work with 
+an already-installed Ruby, but maybe you can for writing your next 
+command line tool.</p>
+<h4><a id="user-content-the-problems-sound-hypothetical-is-it-really-that-big-of-a-deal-for-end-users" class="anchor" aria-hidden="true" href="#the-problems-sound-hypothetical-is-it-really-that-big-of-a-deal-for-end-users"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The problems sound hypothetical. Is it really that big of a deal for end users?</h4>
+<p>Yes. These problems can put off your users from installing your app 
+at all and can give you a bad reputation. Especially Chef has suffered a
+ lot from this. A lot of people have had bad experience in the past with
+ installing Chef through RubyGems. Chef has solved this problem for 
+years by supplying platform-specific packages for years (DEBs, RPMs, 
+etc), but the reputation stuck: there are still people out there who 
+shun Chef because they think they have to install Ruby and use RubyGems.</p>
+<h4><a id="user-content-i-target-os-x-which-already-ships-ruby-should-i-still-bundle-a-ruby-interpreter" class="anchor" aria-hidden="true" href="#i-target-os-x-which-already-ships-ruby-should-i-still-bundle-a-ruby-interpreter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>I target OS X, which already ships Ruby. Should I still bundle a Ruby interpreter?</h4>
+<p>Yes. OS X versions up to 10.8 Mountain Lion ship Ruby 1.8. Only 
+starting from 10.9 Mavericks does it ship Ruby 2.0. There are 
+significant compatibility differences between Ruby 1.8 and 2.0. Future 
+OS X versions might ship yet another Ruby version. Only by bundling Ruby
+ can you be sure that OS upgrades won't break your app.</p>
+<p><a name="user-content-windows_support"></a></p>
+<h3><a id="user-content-does-traveling-ruby-support-windows" class="anchor" aria-hidden="true" href="#does-traveling-ruby-support-windows"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Does Traveling Ruby support Windows?</h3>
+<p><a href="https://github.com/phusion/traveling-ruby/blob/master/TUTORIAL-4.md">Yes</a>, but with some <a href="#caveats">caveats</a>.</p>
+<h3><a id="user-content-how-big-is-a-hello-world-packaged-with-traveling-ruby" class="anchor" aria-hidden="true" href="#how-big-is-a-hello-world-packaged-with-traveling-ruby"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How big is a hello world packaged with Traveling Ruby?</h3>
+<p>It's about 6 MB compressed.</p>
+</article>
+      </div>
+  </div>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">© 2019 GitHub, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog/" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-mdrBasYG+QjgS391PSyVkPr06io3gWplCVbPscguetNEHxIEt+mZwCeCxPR9eMNfda6qNuibNFqBo5ak2+O/hg==" type="application/javascript" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/compat-bootstrap-99dac16a.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-/VSJJF96vCzSgC6y09Z4FqzjjuXRWOKIq2twF0Nb5/v8xy4qzngnH6Au6TFwbmNN/lborYJsojEpgIbYjoGvHQ==" type="application/javascript" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/frameworks-fd548924.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-0mcBYsTTDNy016WuG7Zu/Pb5dsdoVzVb5FlxH4btAPKKyTBKn+5g6N6lXxmMo1WokYH8uOYuLpTgLjU29jSqcA==" type="application/javascript" src="GitHub%20-%20phusion_traveling-ruby%20%20Self-contained,%20Ruby%20binaries%20that%20can%20run%20on%20any%20Linux%20distribution%20and%20any%20OS%20X%20machine_files/github-bootstrap-d2670162.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden="">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden="">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden="">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open="">
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog="">
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  
+
+
+</body></html>

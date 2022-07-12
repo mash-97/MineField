@@ -1,0 +1,5 @@
+Home: Mansion
+Spouse Name: cornish
+Children Numbers: 1
+Luxury Item: Honda
+1 1 1 1

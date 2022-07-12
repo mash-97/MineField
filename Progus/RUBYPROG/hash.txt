@@ -1,0 +1,6 @@
+$a = []
+for i in (1..100) do
+  $a<<i
+  puts($a[-1])
+end
+

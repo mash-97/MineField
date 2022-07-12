@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528211855 source:/home/mash/Progus/CPROG/Computer_Programming_2/Average/main.c
+	<stdio.h>
+	<stdlib.h>
+

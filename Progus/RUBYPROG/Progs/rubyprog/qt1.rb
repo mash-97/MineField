@@ -1,0 +1,7 @@
+require("Qt")
+app = Qt::Application.new(ARGV)
+label = Qt::Label.new("Hello world", nil)
+label.resize(150,30)
+app.setMainWidget(label)
+label.show()
+app.exec()

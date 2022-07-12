@@ -1,0 +1,7 @@
+abbrebiations
+
+SoC ---- Systems on chips
+GPL ---- General Public License					Free Software
+LGPL --- Lesser General Public License			Free Software
+BSD ---- Berkeley Software Distribution 		Free Software
+ASL ---- Apache Software License				Free Software

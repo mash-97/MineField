@@ -1,0 +1,7 @@
+# mysql2 connection menifesto for the database test.mysql.db 
+adapter: 'mysql2'
+host: 'localhost'
+username: 'root'
+password: 'MASH#1358'
+database: 'test_mysql'
+

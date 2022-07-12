@@ -1,0 +1,7 @@
+Name:			mash
+
+Birthday:		21/32/22
+
+Department:		faculty of science in theoretical physics
+
+Roll:			1

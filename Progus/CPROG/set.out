@@ -1,0 +1,13 @@
+Size of set A: 6
+Elements of set A: 7 8 3 10 1 4 
+
+Size of set B: 9
+Elements of set B: 7 5 8 9 3 2 4 10 1 
+
+Size of set C: 7
+Elements of set C: 3 5 4 2 1 10 9 
+
+
+For Associative Laws of Sets: 
+A n (B n C): { 3, 10, 1, 4 }
+(A n B) n C: { 3, 10, 1, 4 }
