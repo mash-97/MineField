@@ -127,6 +127,11 @@ void build_btree(int leaf_size, int * leaf_array, int btree_size, int * btree) {
 	return;
 }
 
+// indx => current node
+// indx_offset => starts from the current code
+// 				  navigates the traversing
+// val => new value
+// size_offset => number of leaf s in the tree
 int change_value(int indx, int indx_offset, const int val, int size_offset, int *btree) {
 	int sd = size_offset/2;
 	int tmp;
@@ -146,9 +151,51 @@ int change_value(int indx, int indx_offset, const int val, int size_offset, int 
 	btree[indx] += val;
 	return tmp;
 }
+
+int range_sum_query(int curr_indx, int ai, int bi, int li, int ri, int *btree) {
+	if(ai==li && ((ai==bi && ai==ri) || bi==ri)) return btree[curr_indx];
 	
+	int left_child_li = li, left_child_ri = ri/2;
+	int right_child_li = (ri/2)+1, right_child_ri = ri;
+	
+	if(ai>=left_child_li && ai<=left_child_ri) {
+		if(bi <= left_child_ri) return range_sum_query(left_child(curr_indx), ai, bi, left_child_li, left_child_ri, btree);
+		return range_sum_query(left_child(curr_indx), ai, left_child_ri, left_child_li, left_child_ri, btree) +
+			   range_sum_query(right_child(curr_indx), right_child_li, bi, right_child_li, right_child_ri, btree);
+	}
+	if(bi>=right_child_li && bi<=right_child_ri) {
+		if(ai <= right_child_li) return range_sum_query(right_child(curr_indx), right_child_li, bi, right_child_li, right_child_ri, btree);
+		
+	}
+	return -1000000;
+}
+
+int rsq(int curr_indx, int ai, int bi, int li, int ri, int *btree) {
+	
+	if(ai==li && ((ai==bi && ai==ri) || bi==ri))
+		return btree[curr_indx];
+	
+	int halve = li+(ri-li)/2;
+	if(ai>= li && bi <= halve)
+		return rsq(left_child(curr_indx), ai, bi, li, halve, btree);
+	
+	if(ai > halve && bi <= ri)
+		return rsq(right_child(curr_indx), ai, bi, halve+1, ri, btree);
+	
+	if(ai <= halve && bi > halve)
+		return rsq(left_child(curr_indx), ai, halve, li, halve, btree) +
+			   rsq(right_child(curr_indx), halve+1, bi, halve+1, ri, btree);
+	
+	
+	return -1000000;
+}
+
+
 int main(){
-	while(1) {
+	//freopen("seg.in", "r+", stdin);
+	int temp;
+	scanf("%d", &temp);
+	while(temp--) {
 		int leaf_size;
 		printf("enter size: ");
 		scanf("%d", &leaf_size);
@@ -182,7 +229,10 @@ int main(){
 		printf("\n===============\n");
 		print_btree(0, btree_size, twos_multiple(leaf_size), btree);
 		
-		while(1) {
+		int mod_temp;
+		printf("enter mod temp: ");
+		scanf("%d", &mod_temp);
+		while(mod_temp--) {
 			int indx_offset, val;
 			printf("enter idxoffset and val: ");
 			scanf("%d %d", &indx_offset, &val);
@@ -191,6 +241,16 @@ int main(){
 			print_btree(0, btree_size, twos_multiple(leaf_size), btree);
 			printf("\n\n");
 		}
+		
+		printf("number of rsq: ");
+		scanf("%d", &mod_temp);
+		while(mod_temp--) {
+			printf("enter range sum query: ");
+			int ai, bi;
+			scanf("%d%d", &ai, &bi);
+			printf("for %d and %d => %d\n", ai, bi, rsq(1, ai, bi, 1, twos_multiple(leaf_size), btree));
+		}
+		
 		free(btree);
 	}
 	
