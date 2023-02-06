@@ -1,3 +1,18 @@
+def insertion_sort(array)
+  step = 0
+  for i in (1...array.length)
+    j = i-1
+    while(j>=0 and array[j+1] < array[j]) do
+      buff = array[j+1]
+      array[j+1] = array[j]
+      array[j] = buff
+      j -= 1
+      step += 1
+    end
+  end
+  return array, step
+end
+
 
 def stacklier_sort(array)
   buffer_stack = Array.new
@@ -26,5 +41,8 @@ if $0 == __FILE__ then
   print("enter array: ")
   array = gets.strip.split(' ').map(&:to_i)
   ss = stacklier_sort(array)
-  puts("sorted_array: #{ss.first.to_s}, steps: #{ss.last}")
+  puts("stacklier_sort: #{ss.first.to_s}, steps: #{ss.last}")
+  is = insertion_sort(array)
+  puts("insertion_sort: #{is.first.to_s}, steps: #{is.last}")
+  puts("array: #{array.to_s}")
 end
