@@ -84,5 +84,10 @@ if __name__=='__main__':
 
   print(nodes)
   root_node = input("enter root: ").strip()
+  print()
   print(dijkstra(nodes, root_node))
+  print()
+  for n in nodes.keys():
+    print(f"For {n} ==> {dijkstra(nodes, n)}")
+
 
