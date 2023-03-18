@@ -1,4 +1,36 @@
 import queue
+import heapq
+import math
+
+def dijkstra_heapq():
+  nv = int(input("number of nodes: "))
+  cost = [[None for _ in range(nv)] for _ in range(nv)]
+  ne = int(input("number of edges: "))
+  for _ in range(ne):
+    a, b, v = list(map(lambda x: int(x), input().strip().split(' ')))
+    cost[a][b] = v
+  print("\ncosts: ", cost)
+  print()
+
+  q = [T(0, 0)]
+  distance = [math.inf for _ in range(nv)]
+  distance[0] = 0
+  visited = set()
+  count = [0 for _ in range(nv)]
+  while(len(q)!=0):
+    n = heapq.heappop(q)
+    if n.l in visited:
+      continue
+    visited.add(n.l)
+    count[n.l] += 1
+    for indx in range(nv):
+      if(cost[n.l][indx]!=None and distance[n.l]+cost[n.l][indx]<distance[indx]):
+        distance[indx] = distance[n.l]+cost[n.l][indx]
+        heapq.heappush(q, T(indx, distance[indx]))
+
+  print()
+  print(f"count: {count}")
+  print(f"distance: {distance}")
 
 class Node:
   def __init__(self, value):
@@ -69,6 +101,9 @@ def dijkstra(graph, root_node):
   return act
 
 if __name__=='__main__':
+  dijkstra_heapq()
+
+if __name__=='':
   number_of_edges = int(input("number of edges: "))
   nodes = {}
   print("enter edges: {node} {node} {edge_value}")
