@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruby Wasm</title>
+    <script src="https://cdn.jsdelivr.net/npm/ruby-head-wasm-wasi@0.5.0/dist/browser.script.iife.js"></script>
+  </head>
+  <body>
+    <script type="text/ruby">
+      class P
+        attr_accessor :p, :d
+        def initialize(p, d)
+          @p = p
+          @d = d
+        end
+      end
+      p = P.new(3,3)
+      puts "Hello, world!"
+    </script>
+  </body>
+</html>
