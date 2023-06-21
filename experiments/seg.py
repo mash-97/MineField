@@ -22,6 +22,8 @@ def uv(indx, v, bt):
     bt[indx//2] += vv
     indx //= 2
 
+# build segment tree
+# with given numbers
 def bstree(numbers):
   ls = 1
   while(ls<len(numbers)):
