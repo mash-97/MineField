@@ -2,6 +2,8 @@
 **/*.log
 **/**/*.o
 **/**/*.exe
+**/**/Untitled Folder/**/*
+
 
 
 
