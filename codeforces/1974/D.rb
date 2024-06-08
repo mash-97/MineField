@@ -1,107 +1,54 @@
+def get_cp(chr)
+  cp = [0, 0]
+  case chr
+  when 'N'
+    cp[1] += 1
+  when 'S'
+    cp[1] -= 1
+  when 'W'
+    cp[0] += 1
+  when 'E'
+    cp[0] -= 1
+  end
+  return cp
+end
 
-def ing_backtrack(s, csi, rp, hp, rh, dm)
+def ing_backtrack2(s, csi, rob_pos, heli_pos, rh='', dp=[])
   if csi == s.length then
-    if (rp.first==hp.first) and (rp.last==hp.last) and (rh.include?('R') and rh.include?('H')) then
-      return rh
+    if (rob_pos.first==heli_pos.first) and (rob_pos.last==heli_pos.last) then 
+      if (rh.include?('R') and rh.include?('H')) then
+        return rh
+      else
+        return nil
+      end
     else
       return nil
     end
   end
-
-  if not dm[csi] then 
-    dm << {'R'=> false, 'H' => false}
+  if dp[csi] == nil then
+    dp[csi] = {'R' => nil, 'H' => nil}
   end
 
-  case s[csi]
-  when 'N'
-    if dm[csi]['R'] then 
-      return dm[csi]['R']
-    else
-        r = ing_backtrack(s, csi+1, [rp.first, rp.last+1], hp, rh+'R', dm)
-      if r then
-        dm[csi]['R'] = r
-        return r 
-      end
-    end
-    if dm[csi]['H'] then
-      return dm[csi]['H']
-    else
-      h = ing_backtrack(s, csi+1, rp, [hp.first, hp.last+1], rh+'H', dm)
-      if h then 
-        dm[csi]['H'] = h
-        return h
-      end
-      dm[csi]['H'] = false
-    end
-  when 'S'
-    if dm[csi]['R'] then 
-      return dm[csi]['R']
-    else
-        r = ing_backtrack(s, csi+1, [rp.first, rp.last-1], hp, rh+'R', dm)
-      if r then
-        dm[csi]['R'] = r
-        return r 
-      end
-      dm[csi]['R'] = false
-    end
-    if dm[csi]['H'] then
-      return dm[csi]['H']
-    else
-      h = ing_backtrack(s, csi+1, rp, [hp.first, hp.last-1], rh+'H', dm)
-      if h then 
-        dm[csi]['H'] = h
-        return h
-      end
-      dm[csi]['H'] = false
-    end
-  when 'W'
-    if dm[csi]['R'] then 
-      return dm[csi]['R']
-    else
-        r = ing_backtrack(s, csi+1, [rp.first-1, rp.last], hp, rh+'R', dm)
-      if r then
-        dm[csi]['R'] = r
-        return r 
-      end
-      dm[csi]['R'] = false
-    end
-    if dm[csi]['H'] then
-      return dm[csi]['H']
-    else
-      h = ing_backtrack(s, csi+1, rp, [hp.first-1, hp.last], rh+'H', dm)
-      if h then 
-        dm[csi]['H'] = h
-        return h
-      end
-      dm[csi]['H'] = false
-    end
-  when 'E'
-    if dm[csi]['R'] then 
-      return dm[csi]['R']
-    else
-        r = ing_backtrack(s, csi+1, [rp.first+1, rp.last], hp, rh+'R', dm)
-      if r then
-        dm[csi]['R'] = r
-        return r 
-      end
-      dm[csi]['R'] = false
-    end
-    if dm[csi]['H'] then
-      return dm[csi]['H']
-    else
-      h = ing_backtrack(s, csi+1, rp, [hp.first+1, hp.last], rh+'H', dm)
-      if h then 
-        dm[csi]['H'] = h
-        return h
-      end
-      dm[csi]['H'] = false
-    end
+  cp = get_cp(s[csi])
+
+  if dp[csi]['R'] == nil then
+    r = ing_backtrack2(s, csi+1, rob_pos.zip(cp).collect(&:sum), heli_pos, rh+'R', dp)
+    return r if r
+    dp[csi]['R'] = false
   end
+
+  if dp[csi]['H'] == nil then 
+    h = ing_backtrack2(s, csi+1, rob_pos, heli_pos.zip(cp).collect(&:sum), rh+'H', dp)
+    return h if h 
+    dp[csi]['H'] = false
+  end
+
   return nil
 end
 
+
 def ingenuity(s)
-  r = ing_backtrack(s, 0, [0, 0], [0, 0], '', [])
+  r = ing_backtrack2(s, 0, [0, 0], [0, 0])
   if r then
     puts(r)
   else
